@@ -1,0 +1,5 @@
+SwiftyBind:
+  image: ibmcom/swift-ubuntu:latest
+  volumes:
+    - .:/root/SwiftyBind
+  command: bash -c "cd /root/SwiftyBind && swift build && swift test"
