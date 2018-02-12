@@ -9,6 +9,10 @@ A Swifty approach to notification based programming
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/eman6576/SwiftyBind/blob/master/LICENSE)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey.svg)]()
 
+## Deprecation Notice
+
+This library has been deprecated in favor of [SGSwiftyBind](https://github.com/eman6576/SGSwiftyBind)
+
 ## Overview
 
 Sometimes when wanting to know when a value has changed, it can be difficult to write clean, safe code that won't introduce weird behaviors like firing multiple times. SwiftyBind attempts to solve this problem by encapsulating the logic firing notifications. Heres an example:
